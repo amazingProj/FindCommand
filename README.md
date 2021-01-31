@@ -2,7 +2,7 @@
 
 implements find command of unix by my own.
 
-I do it according to four formats: 
+Formats:
 
 1:
 prompt> search <path> <-type> <flag> <-name> <file/dir-name> <-exec> <command>
