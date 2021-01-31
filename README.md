@@ -1,3 +1,17 @@
 # Find command
 
-implements the find command of unix by my own.
+implements find command of unix by my own.
+
+I do it according to four formats: 
+
+1:
+prompt> search <path> <-type> <flag> <-name> <file/dir-name> <-exec> <command>
+  
+2:  
+prompt> search <path> <-type> <flag> <-size> <-exec> <command>
+
+3:
+prompt> search <path> <-maxdepth><num> <-type> <flag> <-name> <file/dir-name> <-exec> <command>
+  
+4:  
+prompt> search <path> <-maxdepth><num> <-type> <flag> <-size> < > <-exec> <command>
