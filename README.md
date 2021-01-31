@@ -6,8 +6,10 @@ Formats:
 
 1:
 
+```
 prompt> ./search.sh <path> <-type> <flag> <-name> <file/dir-name> <-exec> <command>
   
+```
 2:  
 
 prompt> ./search.sh <path> <-type> <flag> <-size> <-exec> <command>
