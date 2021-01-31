@@ -62,9 +62,11 @@ execCommandSS=$9
 
  if [ $maxDepthf == 1 ]
 then
-   execCommand=$9
-   execCommandS=$10
-   execCommandSS=$11
+   shift
+   shift
+   execCommand=$7
+   execCommandS=$8
+   execCommandSS=$9
 
 fi
 fi
