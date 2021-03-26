@@ -47,7 +47,7 @@ For example:
 ./search $PWD -type f -name "*.txt" -exec ls -l
 ```
  
-# find by a maxdepth
+# find by a maxdepth and a name
 
 the find command recursively searches according to the given parameters.
 
