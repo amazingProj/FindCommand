@@ -1,3 +1,7 @@
+First make the file executable(before save the file with its name): 
+
+chmod +x search
+
 # Find command
 
 implements find command of Unix on my own.
@@ -67,7 +71,7 @@ printing all directories from the present working directory that their size in b
 ./search $PWD -type d -size 100 cd
 ```
 
-# a max depth and a size 
+# find by a max depth and a size 
 
 
 ```
