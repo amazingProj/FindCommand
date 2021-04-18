@@ -2,14 +2,14 @@ First make the file executable(before save the file with its name):
 
 chmod +x search.sh
 
-# Find command
+# Find command implementation
 
 implements find command of Unix on my own.
 
 This find command only supports these formats of given arguments.
 It can be given a command, but it is optional.
 
-# give it a name and command
+# give it a name and a command
  
 Note:
 
@@ -32,7 +32,7 @@ printing all files from the present working directory that their size in bytes i
 ```
 ./search.sh $PWD -type f -size 100 -exec ls -l -a 
 ```
-# find by size
+# find by a size
 
 find all the directory or files whose length is smaller than a given size
 
