@@ -30,7 +30,7 @@ For example:
 printing all files from the present working directory that their size in bytes is 100 or less, afterward execute a command on these files.
 
 ```
-search.sh $PWD -type f -size 100 -exec ls -l -a 
+./search.sh $PWD -type f -size 100 -exec ls -l -a 
 ```
 # find by size
 
@@ -53,7 +53,7 @@ For example:
  
 # find by a maxdepth and a name
 
-the find command recursively searches according to the given parameters.
+the find command searches recursively according to the given parameters.
 
 We can send it how much depth from the given path get into 
 directories.
