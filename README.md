@@ -1,6 +1,6 @@
 First make the file executable(before save the file with its name): 
 
-chmod +x search
+chmod +x search.sh
 
 # Find command
 
